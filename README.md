@@ -2,6 +2,8 @@
 
 # Qwen3.6-27B-AEON-Ultimate-Uncensored
 
+![AEON Qwen — Supreme Being of the Digital Cosmos](cartridge.jpg)
+
 ### Lossless abliteration · Capability-enhanced · NVFP4 hardware-quantized for Blackwell
 
 [![BF16](https://img.shields.io/badge/HuggingFace-BF16_(51_GB)-yellow?logo=huggingface)](https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16)
