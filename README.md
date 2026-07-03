@@ -33,7 +33,7 @@ One block: pull the container, pull this model (fresh, the `-Multimodal-NVFP4-MT
 docker pull ghcr.io/aeon-7/aeon-vllm-ultimate:latest
 
 # 2) Pull this model (fresh)
-huggingface-cli download AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS --local-dir ./aeon-model
+huggingface-cli download AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP --local-dir ./aeon-model
 
 # 3) Pull the DFlash drafter (fresh — z-lab pushes updates; always re-pull)
 huggingface-cli download z-lab/Qwen3.6-27B-DFlash --local-dir ./aeon-drafter
