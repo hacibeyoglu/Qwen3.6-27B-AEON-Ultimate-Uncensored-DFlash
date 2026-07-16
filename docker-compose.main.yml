@@ -75,14 +75,14 @@ services:
     command:
       - |
         exec vllm serve /models/xs \
-          --served-model-name aeon-ultimate-main-validation \
-          --host 0.0.0.0 --port 8001 \
+          --served-model-name qwen3.6-27b \
+          --host 0.0.0.0 --port 8000 \
           --tensor-parallel-size 1 \
           --dtype auto \
           --quantization modelopt \
           --kv-cache-dtype auto \
           --mamba-cache-dtype float32 \
-          --max-model-len 256000 \
+          --max-model-len 262144 \
           --max-num-seqs 64 \
           --max-num-batched-tokens 16384 \
           --gpu-memory-utilization 0.70 \
