@@ -42,6 +42,9 @@ services:
       # ─── Core vLLM ───
       - VLLM_ALLOW_LONG_MAX_MODEL_LEN=1
 
+      # ─── Suppress transformers `use_fast` deprecation warning ───
+      - TRANSFORMERS_BACKEND=pil
+
       # ─── GB10 / sm_121a runtime ───
       - TORCH_CUDA_ARCH_LIST=12.1a
       - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
